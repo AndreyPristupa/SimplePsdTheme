@@ -1,0 +1,232 @@
+html {
+	background-color: #333;
+	font-family: Tahoma;
+	color:#404040;
+}
+
+body {
+	width: 1280px;
+	margin: 0 auto;
+	background-color: #fff;
+	/*padding: 20px;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	color:#636363;
+}
+
+ul {
+	list-style: none;
+}
+
+.circle {
+	border-radius: 100%;
+}
+
+header {
+	padding: 10px 20px;
+	position: absolute;
+	background-color: #fff;
+	opacity: .9;
+	width: 1240px;
+}
+
+header > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*main menu*/
+
+#logo {
+	width: 15%;
+	position: relative;
+	top: 10px;
+}
+
+#main-menu {
+	width: 80%;
+}
+
+#main-menu ul {
+	list-style: none;
+	text-align: right;
+}
+
+#main-menu ul li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+}
+
+#main-menu ul li a {
+	color:#817b7b;
+	/*font-weight: bold;*/
+	font-size: 16px;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+
+#main-menu ul li.login-btn a {
+	display: inline-block;
+	padding: 3px 12px 3px 26px;
+	color:#fff;
+	border-radius: 4px;
+	background: #de6d6e url(/images/man-icon.png) 8px center no-repeat;
+}
+
+#main-menu ul li.login-btn {
+	border-radius: 5px;
+	position: relative;
+	top: -2px;
+	margin-left: 50px;
+}
+
+section {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+section#banner {
+	height: 630px;
+}
+
+section#benefits {
+	text-align: center;
+	padding: 50px 0;
+}
+
+#benefits p {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#benefits .b-blue {
+	background: #4eb9f4 url(/images/tickets.png) center center no-repeat;
+}
+
+#benefits .b-green {
+	background:  #6fc125 url(/images/camera.png) center center no-repeat;
+}
+
+#benefits .b-red {
+	background-color: #ff5649;
+}
+
+#benefits .b-orange {
+	background: #e48f23 url(/images/ipad.png) center center no-repeat;
+}
+
+#benefits ul {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 70px;
+}
+
+#benefits ul li {
+	margin-right: 100px;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#benefits ul li span {
+	display: none;
+	color:#fff;
+}
+
+#benefits ul li:hover span {
+	display: block;
+	position: relative;
+	top: 145px;
+}
+
+section#content {
+	padding: 50px 100px;
+}
+
+#content .list-element {
+	margin-bottom: 40px;
+}
+
+#content .list-element > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#content .list-image {
+	width: 20%;
+}
+
+#content .list-text {
+	width: 75%;
+}
+
+#content .list-text h3 {
+	margin-top: 5px;
+}
+
+footer {
+	background-image: url(/images/footer-bg.png);
+	padding: 15px 30px;
+}
+
+footer > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer .menus {
+	width: 70%;
+}
+
+footer .social {
+	width: 25%;
+}
+
+footer .menus ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 19%;
+}
+
+footer .menus ul li, footer .menus li a {
+	color:#a1a0a1;
+}
+
+footer .menus ul li:first-child {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+footer .social ul {
+	padding: 0;
+}
+
+footer .social ul li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 12px;
+}
+
+footer .social .copyright {
+	position: relative;
+	/*left: 20px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
